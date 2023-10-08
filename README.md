@@ -25,23 +25,27 @@ Requirements
     Flask
 
 ## Setup
+Clone the repository:
 
-    Clone the repository:
+    
 
-    bash
+    
+    git clone https://github.com/ZeroXClem/LLM_Supervisor_Project.git
 
-git clone https://github.com/<Your-Username>/LLM_Supervisor_Project.git
 
-Navigate into the project directory:
+
+## Navigate into the project directory:
+
+bash:
+
+    cd LLM_Supervisor_Project
+
+
+
+
+## (Optional) Create and activate a Python virtual environment:
 
 bash
-
-cd LLM_Supervisor_Project
-
-(Optional) Create and activate a Python virtual environment:
-
-bash
-
 python3 -m venv venv
 source venv/bin/activate
 
@@ -50,14 +54,15 @@ Install the required packages:
 bash
 
     pip install -r requirements.txt
+    
 
-Usage
+## Usage
 
-    To start the Flask monitoring API:
+  To start the Flask monitoring API:
 
-    bash
+    python monitoring_api.py
 
-python monitoring_api.py
+
 
 To run the LLM Supervisor:
 
