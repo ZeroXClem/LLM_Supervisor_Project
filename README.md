@@ -45,13 +45,16 @@ bash:
 
 ## (Optional) Create and activate a Python virtual environment:
 
-bash
-python3 -m venv venv
-source venv/bin/activate
+
+bash:
+
+    python3 -m venv venv
+    source venv/bin/activate
 
 Install the required packages:
 
-bash
+
+bash:
 
     pip install -r requirements.txt
     
@@ -66,7 +69,7 @@ bash
 
 To run the LLM Supervisor:
 
-bash
+bash:
 
     python LLM_Supervisor.py
 
